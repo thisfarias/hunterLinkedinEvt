@@ -119,10 +119,8 @@ def write_csv(data):
         csv_reader.writerow(data)
 
 my_login = {
-    #'email': 'recrutadoreficiente@gmail.com',
-    #'password': 'Paris#123'
-    'email': 'farias.mts@outlook.com',
-    'password': 'Eleven12'
+    'email': 'recrutadoreficiente@gmail.com',
+    'password': 'Paris#123'
 }
 local = os.path.dirname(os.path.realpath(__file__))
 s = requests.Session() 
